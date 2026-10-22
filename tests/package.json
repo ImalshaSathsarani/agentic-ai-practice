@@ -1,0 +1,13 @@
+{
+  "name": "taskpulse-tests",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:api": "playwright test api.spec.js",
+    "test:e2e": "playwright test e2e.spec.js"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1"
+  }
+}
